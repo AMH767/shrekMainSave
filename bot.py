@@ -7,9 +7,9 @@ from telethon.tl.types import User
 # ============================================================
 #  НАСТРОЙКИ — заполни перед запуском
 # ============================================================
-API_ID      = int(os.getenv("API_ID", "0"))        # твой api_id
-API_HASH    = os.getenv("API_HASH", "")             # твой api_hash
-BOT_TOKEN   = os.getenv("BOT_TOKEN", "")            # токен твоего бота (@BotFather)
+API_ID      = int(os.getenv("API_ID", "38427116"))        # твой api_id
+API_HASH    = os.getenv("API_HASH", "4a2603cca91ad7ee84ec10cce984206b")             # твой api_hash
+BOT_TOKEN   = os.getenv("BOT_TOKEN", "8600045569:AAHQiy8xYvhbO1GbxfnmL_0yNqflTJCoa9w")            # токен твоего бота (@BotFather)
 SESSION_FILE = os.getenv("SESSION_FILE", "my_account")  # имя .session файла (без расширения)
 
 SAVEAS_BOT  = "SaveAsBot"   # юзернейм бота-получателя
